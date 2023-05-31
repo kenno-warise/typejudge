@@ -1,0 +1,7 @@
+.python-version
+.venv
+actionsの説明書.txt
+.coverage
+.mypy_cache
+.ruff_cache
+__pycache__
