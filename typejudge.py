@@ -1,4 +1,4 @@
-#!/home/kenno/.pyenv/shims/python3
+##!/home/kenno/.pyenv/shims/python3
 # tpyecode.py
 """型判定モジュール."""
 
