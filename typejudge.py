@@ -9,5 +9,3 @@ def judgement(
     """型を判定する関数です."""
     return type(code)
 
-
-# if __name__ == '__main__':
