@@ -23,7 +23,6 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with balck and ruff and mypy
       run: |
-        # stop the build if there are Python syntax errors or undefined names
         black typejudge.py
         ruff check typejudge.py --select=ALL --ignore=D203,D212,EXE002 --fix
         mypy typejudge.py
